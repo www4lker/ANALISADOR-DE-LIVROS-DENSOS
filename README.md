@@ -6,7 +6,7 @@
 
 > Sistema de prompts estratificados para análise sistemática de textos acadêmicos densos usando Google NotebookLM, com compensações arquiteturais para limitações de RAG (Retrieval-Augmented Generation).
 
-## 🔗 Parte da Tríade Ferramentas para NotebookLM
+## 🔗 Parte da Tríade NotebookLM
 
 Esta ferramenta integra um ecossistema de três aplicações complementares para maximizar produtividade acadêmica com NotebookLM:
 
@@ -226,11 +226,7 @@ analisador-livros-densos/
 │
 ├── analisador-livros-densos.html    # SPA completa (HTML + CSS + JS inline)
 ├── README-uso-analisador.md         # Guia detalhado de workflows
-├── README.md                         # Este arquivo
-│
-└── docs/                            # (Opcional) Relatórios de pesquisa
-    ├── limitacoes-rag-notebooklm.md
-    └── vies-recuperacao-rag.md
+└── README.md                         # Este arquivo
 ```
 
 ---
@@ -281,13 +277,17 @@ Contribuições são bem-vindas! Áreas prioritárias:
 
 ### Documentação
 - [Guia Completo de Workflows](./README-uso-analisador.md) - Exemplos detalhados de uso
-- [Relatório: Limitações RAG](./docs/limitacoes-rag-notebooklm.md) - Base científica do sistema
-- [Relatório: Viés de Recuperação](./docs/vies-recuperacao-rag.md) - Análise de comportamento do NotebookLM
+
+### Base de Pesquisa
+Este sistema foi desenvolvido com base em 68+ fontes científicas sobre limitações de RAG, incluindo:
+- Barnett et al. (2024) - Seven Failure Points in RAG Systems
+- Chen et al. (2024) - Demystifying RAG Robustness
+- Zhang et al. (2025) - Beyond Vector Databases
+- Relatos documentados da comunidade NotebookLM
 
 ### Comunidade
 - **Issues:** Para reportar bugs ou sugerir features
 - **Discussions:** Para compartilhar workflows e casos de uso
-- **Wiki:** Documentação colaborativa (em desenvolvimento)
 
 ### Ferramentas Relacionadas
 - [NotebookLM by Google](https://notebooklm.google.com/)
@@ -298,7 +298,7 @@ Contribuições são bem-vindas! Áreas prioritárias:
 
 ## 👨‍💻 Autor
 
-**Walker Brum**
+**W.**
 - GitHub: [@www4lker](https://github.com/www4lker)
 - Pesquisador PPGECCO/UFMT
 - Área: Estudos de Cultura Contemporânea, IA e Epistemologia
@@ -312,7 +312,7 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 ```
 MIT License
 
-Copyright (c) 2025 Walker Brum
+Copyright (c) 2025 W.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -351,25 +351,6 @@ SOFTWARE.
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 
 **Última atualização:** Janeiro 2025
-
----
-
-## 🔮 Roadmap
-
-### v1.1 (Planejado - Q1 2025)
-- [ ] Presets disciplinares (Filosofia, História, Sociologia)
-- [ ] Export de prompts em JSON
-- [ ] Modo "dark theme"
-
-### v1.2 (Planejado - Q2 2025)
-- [ ] Integração com Zotero API
-- [ ] Análise cross-notebook (via consolidação assistida)
-- [ ] Biblioteca de exemplos de análises bem-sucedidas
-
-### v2.0 (Futuro)
-- [ ] Backend opcional para persistência
-- [ ] Sistema de tags para categorização de prompts
-- [ ] Analytics de uso (opt-in, anônimo)
 
 ---
 
